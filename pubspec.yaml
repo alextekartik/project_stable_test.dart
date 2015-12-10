@@ -1,0 +1,5 @@
+name: project_stable_test
+dependencies:
+  pubtest:
+    git: git://github.com/tekartik/pubtest.dart
+
