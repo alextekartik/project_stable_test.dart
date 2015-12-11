@@ -2,6 +2,28 @@ name: project_stable_test
 dependencies:
   pubtest:
     git: git://github.com/tekartik/pubtest.dart
+  yacht:
+    git: git://github.com/tekartik/yacht.dart
+  process_run:
+    git: git://github.com/tekartik/process_run.dart
+  tekartik_sc:
+    git: git://github.com/tekartik/tekartik_sc.dart
+  pubglobalupdate:
+    git: git://github.com/tekartik/pubglobalupdate.dart
+  idb_shim:
+    git: git://github.com/tekartik/idb_shim.dart
+  dev_test:
+    git: git://github.com/tekartik/dev_test.dart
+  sembast:
+    git: git://github.com/tekartik/sembast.dart
 dev_dependencies:
-  dev_test: any
   test: any
+dependency_overrides:
+  idb_shim:
+    git: git://github.com/tekartik/idb_shim.dart
+  dev_test:
+    git: git://github.com/tekartik/dev_test.dart
+  sembast:
+    git: git://github.com/tekartik/sembast.dart
+  process_run:
+    git: git://github.com/tekartik/process_run.dart
