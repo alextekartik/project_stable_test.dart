@@ -16,6 +16,9 @@ dependencies:
     git: git://github.com/tekartik/dev_test.dart
   sembast:
     git: git://github.com/tekartik/sembast.dart
+  fs_shim:
+    git: git://github.com/tekartik/fs_shim.dart
+
 dev_dependencies:
   test: any
 dependency_overrides:
@@ -27,3 +30,5 @@ dependency_overrides:
     git: git://github.com/tekartik/sembast.dart
   process_run:
     git: git://github.com/tekartik/process_run.dart
+  fs_shim:
+    git: git://github.com/tekartik/fs_shim.dart
