@@ -19,7 +19,8 @@ dependencies:
     git: git://github.com/tekartik/sembast.dart
   fs_shim:
     git: git://github.com/tekartik/fs_shim.dart
-
+#test_dependencies:
+# - dev_test
 dev_dependencies:
   test: any
 dependency_overrides:
