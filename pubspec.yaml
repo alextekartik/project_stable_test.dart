@@ -21,8 +21,8 @@ dependencies:
     git: git://github.com/tekartik/fs_shim.dart
   tekartik_mdl_js:
     git: git://github.com/tekartik/mdl_js.dart
-#  tekartik_test_menu:
-#    git: git://github.com/tekartik/tekartik_test_menu.dart
+  tekartik_test_menu:
+    git: git://github.com/tekartik/tekartik_test_menu.dart
   tekartik_pub:
     git: git://github.com/tekartik/tekartik_pub.dart
 #test_dependencies:
