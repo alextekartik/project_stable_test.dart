@@ -20,6 +20,7 @@ dev_dependencies:
   test: any
   chrome_travis:
     git: git://github.com/tekartik/chrome_travis.dart
+    version: '>=0.1.3'
 dependency_overrides:
   tekartik_sc:
     git: git://github.com/tekartik/tekartik_sc.dart
