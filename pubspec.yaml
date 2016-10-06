@@ -1,42 +1,49 @@
 version: 0.0.14
 name: project_stable_test
 dependencies:
-  pubtest:
-    git: git://github.com/tekartik/pubtest.dart
-  yacht:
-    git: git://github.com/tekartik/yacht.dart
-  process_run:
-    git: git://github.com/tekartik/process_run.dart
+
+test_dependencies:
+  - pubtest
+  - yacht
+  - process_run
+  - tekartik_common_utils
+  - tekartik_test_menu
+  - tekartik_pub
+  - tekartik_mdl_js
+  - fs_shim
+  - sembast
+  - dev_test
+  - idb_shim
+  - tekartik_sc
+  - pubglobalupdate
+dev_dependencies:
+  test: any
+  chrome_travis:
+    git: git://github.com/tekartik/chrome_travis.dart
+dependency_overrides:
   tekartik_sc:
     git: git://github.com/tekartik/tekartik_sc.dart
-  pubglobalupdate:
-    git: git://github.com/tekartik/pubglobalupdate.dart
+  pubtest:
+    git: git://github.com/tekartik/pubtest.dart
+  tekartik_pub:
+    git: git://github.com/tekartik/tekartik_pub.dart
   idb_shim:
     git: git://github.com/tekartik/idb_shim.dart
   dev_test:
     git: git://github.com/tekartik/dev_test.dart
   sembast:
     git: git://github.com/tekartik/sembast.dart
+  process_run:
+    git: git://github.com/tekartik/process_run.dart
   fs_shim:
     git: git://github.com/tekartik/fs_shim.dart
+  tekartik_common_utils:
+    git: git://github.com/tekartik/tekartik_common_utils.dart
   tekartik_mdl_js:
     git: git://github.com/tekartik/mdl_js.dart
   tekartik_test_menu:
     git: git://github.com/tekartik/tekartik_test_menu.dart
-  tekartik_pub:
-    git: git://github.com/tekartik/tekartik_pub.dart
-#test_dependencies:
-# - dev_test
-dev_dependencies:
-  test: any
-dependency_overrides:
-  idb_shim:
-    git: git://github.com/tekartik/idb_shim.dart
-  dev_test:
-    git: git://github.com/tekartik/dev_test.dart
-  sembast:
-    git: git://github.com/tekartik/sembast.dart
-  process_run:
-    git: git://github.com/tekartik/process_run.dart
-  fs_shim:
-    git: git://github.com/tekartik/fs_shim.dart
+  yacht:
+    git: git://github.com/tekartik/yacht.dart
+  pubglobalupdate:
+    git: git://github.com/tekartik/pubglobalupdate.dart
