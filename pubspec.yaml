@@ -16,6 +16,7 @@ test_dependencies:
   - idb_shim
   - tekartik_sc
   - pubglobalupdate
+  - synchronized
 dev_dependencies:
   test: any
   chrome_travis:
@@ -48,3 +49,5 @@ dependency_overrides:
     git: git://github.com/tekartik/yacht.dart
   pubglobalupdate:
     git: git://github.com/tekartik/pubglobalupdate.dart
+  synchronized:
+    git: git://github.com/tekartik/synchronized.dart
