@@ -4,7 +4,7 @@ dependencies:
 
 test_dependencies:
   - pubtest
-  - yacht
+#  - yacht
   - process_run
   - tekartik_common_utils
   - tekartik_test_menu
