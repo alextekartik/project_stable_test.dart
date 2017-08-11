@@ -40,11 +40,11 @@ dependency_overrides:
   fs_shim:
     git: git://github.com/tekartik/fs_shim.dart
   tekartik_common_utils:
-    git: git://github.com/tekartik/tekartik_common_utils.dart
+    git: git://github.com/tekartik/common_utils.dart
   tekartik_mdl_js:
     git: git://github.com/tekartik/mdl_js.dart
   tekartik_test_menu:
-    git: git://github.com/tekartik/tekartik_test_menu.dart
+    git: git://github.com/tekartik/test_menu.dart
   yacht:
     git: git://github.com/tekartik/yacht.dart
   pubglobalupdate:
