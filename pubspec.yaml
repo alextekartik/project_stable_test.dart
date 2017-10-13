@@ -1,7 +1,9 @@
 version: 0.0.15
 name: project_stable_test
 dependencies:
-
+  pubtest:
+    git: git://github.com/tekartik/pubtest.dart
+    version: '>=0.2.5'
 test_dependencies:
   - pubtest
 #  - yacht
@@ -17,6 +19,10 @@ test_dependencies:
   - tekartik_sc
   - pubglobalupdate
   - synchronized
+  - android_utils
+  - io_utils
+  - browser_utils
+  - build_utils
 dev_dependencies:
   test: any
   chrome_travis:
@@ -25,8 +31,6 @@ dev_dependencies:
 dependency_overrides:
   tekartik_sc:
     git: git://github.com/tekartik/tekartik_sc.dart
-  pubtest:
-    git: git://github.com/tekartik/pubtest.dart
   tekartik_pub:
     git: git://github.com/tekartik/tekartik_pub.dart
   idb_shim:
@@ -41,6 +45,14 @@ dependency_overrides:
     git: git://github.com/tekartik/fs_shim.dart
   tekartik_common_utils:
     git: git://github.com/tekartik/common_utils.dart
+  tekartik_browser_utils:
+    git: git://github.com/tekartik/browser_utils.dart
+  tekartik_io_utils:
+    git: git://github.com/tekartik/io_utils.dart
+  tekartik_android_utils:
+    git: git://github.com/tekartik/android_utils.dart
+  tekartik_build_utils:
+    git: git://github.com/tekartik/build_utils.dart
   tekartik_mdl_js:
     git: git://github.com/tekartik/mdl_js.dart
   tekartik_test_menu:
@@ -51,3 +63,5 @@ dependency_overrides:
     git: git://github.com/tekartik/pubglobalupdate.dart
   synchronized:
     git: git://github.com/tekartik/synchronized.dart
+  #pubtest:
+  #  path: ../../tekartik/pubtest.dart
