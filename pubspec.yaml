@@ -65,5 +65,8 @@ dependency_overrides:
     git: git://github.com/tekartik/pubglobalupdate.dart
   synchronized:
     git: git://github.com/tekartik/synchronized.dart
+  unscripted:
+    hosted: unscripted
+    version: any
   #pubtest:
   #  path: ../../tekartik/pubtest.dart
