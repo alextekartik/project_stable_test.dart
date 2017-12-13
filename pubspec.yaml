@@ -3,7 +3,7 @@ name: project_stable_test
 dependencies:
   pubtest:
     git: git://github.com/tekartik/pubtest.dart
-    version: '>=0.2.5'
+    version: '>=0.3.0'
 test_dependencies:
   - pubtest
 #  - yacht
@@ -33,10 +33,12 @@ dependency_overrides:
     git: git://github.com/tekartik/tekartik_sc.dart
   tekartik_pub:
     git: git://github.com/tekartik/tekartik_pub.dart
+    version: '>=0.7.1'
   idb_shim:
     git: git://github.com/tekartik/idb_shim.dart
   dev_test:
     git: git://github.com/tekartik/dev_test.dart
+    version: '>=0.10.1'
   sembast:
     git: git://github.com/tekartik/sembast.dart
   process_run:

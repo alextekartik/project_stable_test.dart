@@ -4,6 +4,6 @@
 
 Run tests on multiple component at once using current sdk (stable and dev on travis)
 
-    puttestdependencies
+    pubtestdependencies
 
 
