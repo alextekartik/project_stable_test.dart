@@ -6,19 +6,19 @@ dependencies:
     version: '>=0.3.0'
 test_dependencies:
   - pubtest
-#  - yacht
-  - process_run
+# - yacht
+# - process_run
   - tekartik_common_utils
   - tekartik_test_menu
   - tekartik_pub
   - tekartik_mdl_js
-  - fs_shim
-  - sembast
-  - dev_test
-  - idb_shim
+# - fs_shim
+# - sembast
+# - dev_test
+# - idb_shim
   - tekartik_sc
-  - pubglobalupdate
-  - synchronized
+# - pubglobalupdate
+# - synchronized
   - android_utils
   - io_utils
   - browser_utils
@@ -34,8 +34,8 @@ dependency_overrides:
   tekartik_pub:
     git: git://github.com/tekartik/tekartik_pub.dart
     version: '>=0.7.1'
-#  idb_shim:
-#    git: git://github.com/tekartik/idb_shim.dart
+  idb_shim:
+    git: git://github.com/tekartik/idb_shim.dart
   dev_test:
     git: git://github.com/tekartik/dev_test.dart
     version: '>=0.10.1'
@@ -43,8 +43,8 @@ dependency_overrides:
     git: git://github.com/tekartik/sembast.dart
   process_run:
     git: git://github.com/tekartik/process_run.dart
-#  fs_shim:
-#    git: git://github.com/tekartik/fs_shim.dart
+  fs_shim:
+    git: git://github.com/tekartik/fs_shim.dart
   tekartik_common_utils:
     git: git://github.com/tekartik/common_utils.dart
   tekartik_browser_utils:
