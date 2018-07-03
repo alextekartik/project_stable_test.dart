@@ -34,8 +34,8 @@ dependency_overrides:
   tekartik_pub:
     git: git://github.com/tekartik/tekartik_pub.dart
     version: '>=0.7.1'
-  idb_shim:
-    git: git://github.com/tekartik/idb_shim.dart
+#  idb_shim:
+#    git: git://github.com/tekartik/idb_shim.dart
   dev_test:
     git: git://github.com/tekartik/dev_test.dart
     version: '>=0.10.1'
@@ -43,8 +43,8 @@ dependency_overrides:
     git: git://github.com/tekartik/sembast.dart
   process_run:
     git: git://github.com/tekartik/process_run.dart
-  fs_shim:
-    git: git://github.com/tekartik/fs_shim.dart
+#  fs_shim:
+#    git: git://github.com/tekartik/fs_shim.dart
   tekartik_common_utils:
     git: git://github.com/tekartik/common_utils.dart
   tekartik_browser_utils:
