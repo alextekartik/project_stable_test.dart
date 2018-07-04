@@ -2,7 +2,9 @@ version: 0.0.15
 name: project_stable_test
 dependencies:
   pubtest:
-    git: git://github.com/tekartik/pubtest.dart
+    git:
+      url: git://github.com/tekartik/pubtest.dart
+      ref: dart2
     version: '>=0.3.0'
 test_dependencies:
   - pubtest
