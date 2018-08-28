@@ -1,4 +1,4 @@
-version: 0.0.15
+version: 0.0.16
 name: project_stable_test
 environment:
   sdk: '>=2.0.0-dev.58 <3.0.0'
