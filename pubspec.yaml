@@ -3,7 +3,7 @@ name: project_stable_test
 environment:
   sdk: '>=2.0.0-dev.58 <3.0.0'
 dependencies:
-  pubtest:
+  tekartik_pubtest:
     git:
       url: git://github.com/tekartik/pubtest.dart
       ref: dart2
