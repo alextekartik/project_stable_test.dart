@@ -3,13 +3,13 @@ name: project_stable_test
 environment:
   sdk: '>=2.0.0-dev.58 <3.0.0'
 dependencies:
-  pubtest:
+  tekartik_pubtest:
     git:
       url: git://github.com/tekartik/pubtest.dart
       ref: dart2
-    version: '>=0.3.0'
+    version: '>=0.6.1'
 test_dependencies:
-  - pubtest
+  - tekartik_pubtest
 #  - yacht
 # - process_run
   - tekartik_common_utils
@@ -39,6 +39,7 @@ dependency_overrides:
     git:
       url: git://github.com/tekartik/tekartik_sc.dart
       ref: dart2
+    version: '>=0.8.5'
   tekartik_pub:
     git:
       url: git://github.com/tekartik/tekartik_pub.dart
