@@ -20,7 +20,7 @@ test_dependencies:
 # - sembast
 # - dev_test
 # - idb_shim
-  - tekartik_sc
+# - tekartik_sc
 # - pubglobalupdate
 # - synchronized
   - android_utils
