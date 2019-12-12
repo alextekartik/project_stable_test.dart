@@ -2,9 +2,13 @@ language: dart
 sudo: required
 dist: trusty
 dart:
-#  - stable
+  - stable
+  - 2.6.1
   - dev
 before_script:
   - source $(pub run chrome_travis:env_rc)
 script:
   - dart tool/travis.dart
+cache:
+  directories:
+    - $HOME/.pub-cache

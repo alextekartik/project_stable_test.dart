@@ -5,7 +5,9 @@ Future main() async {
 
   await shell.run('''
 # Analyze code
-dartanalyzer --fatal-warnings --fatal-infos tool
+# Analyze code
+dartanalyzer --fatal-warnings --fatal-infos .
+dartfmt -n --set-exit-if-changed .
 
 # Run tests
 pub run tekartik_pubtest:pubtestdependencies.dart -p vm -j 1

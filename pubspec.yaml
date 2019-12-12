@@ -1,7 +1,7 @@
 version: 0.0.16
 name: project_stable_test
 environment:
-  sdk: '>=2.4.0-dev <3.0.0'
+  sdk: '>=2.6.0 <3.0.0'
 dependencies:
   tekartik_pubtest:
     git:
