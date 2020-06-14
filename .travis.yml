@@ -3,8 +3,13 @@ sudo: required
 dist: trusty
 dart:
   - stable
+  - beta
   - dev
 before_script:
+  - pub run chrome_travis:init
   - source $(pub run chrome_travis:env_rc)
 script:
-  - ./tool/travis.sh
+  - dart tool/travis.dart
+cache:
+  directories:
+    - $HOME/.pub-cache
