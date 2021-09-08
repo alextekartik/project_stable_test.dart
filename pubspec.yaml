@@ -1,12 +1,14 @@
 version: 0.0.16
 name: project_stable_test
+publish_to: none
+
 environment:
-  sdk: '>=2.6.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 dependencies:
   tekartik_pubtest:
     git:
       url: git://github.com/tekartik/pubtest.dart
-      ref: dart2
+      ref: null_safety
     version: '>=0.6.1'
 test_dependencies:
   - tekartik_pubtest
@@ -32,19 +34,19 @@ dev_dependencies:
   chrome_travis:
     git:
       url: git://github.com/tekartik/chrome_travis.dart
-      ref: dart2
+      ref: null_safety
     version: '>=0.1.4'
   process_run: '>=0.10.3'
 dependency_overrides:
   tekartik_sc:
     git:
       url: git://github.com/tekartik/tekartik_sc.dart
-      ref: dart2
+      ref: null_safety
     version: '>=0.8.5'
   tekartik_pub:
     git:
       url: git://github.com/tekartik/tekartik_pub.dart
-      ref: dart2
+      ref: null_safety
     version: '>=0.10.13'
 #  idb_shim:
 #    git: git://github.com/tekartik/idb_shim.dart
@@ -60,35 +62,35 @@ dependency_overrides:
   tekartik_common_utils:
     git:
       url: git://github.com/tekartik/common_utils.dart
-      ref: dart2
+      ref: null_safety
   tekartik_browser_utils:
     git:
       url: git://github.com/tekartik/browser_utils.dart
-      ref: dart2
+      ref: null_safety
   tekartik_io_utils:
     git:
       url: git://github.com/tekartik/io_utils.dart
-      ref: dart2
+      ref: null_safety
   tekartik_android_utils:
     git:
       url: git://github.com/tekartik/android_utils.dart
-      ref: dart2
+      ref: null_safety
   tekartik_build_utils:
     git:
       url: git://github.com/tekartik/build_utils.dart
-      ref: dart2
+      ref: null_safety
 #  tekartik_mdl_js:
 #    git:
 #      url: git://github.com/tekartik/mdl_js.dart
-#      ref: dart2
+#      ref: null_safety
 #  tekartik_test_menu:
 #    git:
 #      url: git://github.com/tekartik/test_menu.dart
-#      ref: dart2
+#      ref: null_safety
   yacht:
     git:
       url: git://github.com/tekartik/yacht.dart
-      ref: dart2
+      ref: null_safety
 #  pubglobalupdate:
 #    git: git://github.com/tekartik/pubglobalupdate.dart
 #  synchronized:
@@ -96,5 +98,6 @@ dependency_overrides:
   unscripted:
     hosted: unscripted
     version: any
+  dev_test:
   #pubtest:
   #  path: ../../tekartik/pubtest.dart
